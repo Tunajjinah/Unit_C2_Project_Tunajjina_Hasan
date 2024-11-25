@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Attributes, comments, and images</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" aria-current="page">Intro to HTML</a>
+    </nav>
+    <main>
+      <h1>Images and comments</h1>
+      <h4>Comments</h4>
+      <p>HTML comments are typically hidden in the document. n order to create an HTML comment, you must use the characters "&lt;!--" before the comment text and "--&gt;" after it.</p>
+      <h4>What is the purpose of html comments</h4>
+      <p>Comments in html allows developers to leave notes for themselves or for another developer. This can also be used to temporarliy deactivate certain sections for debugging.</p>
+      <h4>Attributes</h4>
+      <p>Attributes are codes that appear within a tag that modify it in some way. The general syntax for an attribute is:
+        &lt;tagName attributeName="value"&gt;content&lt;/tagName&gt;</p>
+      <h4>Images</h4>
+      <p>Images help improve the appearence of a webpage.</p>
+      <p>Images are embedded on a web page using the &lt;img&gt; element. It is an empty element (no trailing tag) and works inline. To locate the image, you must use the src attribute. You must also use the alt attribute to describe the image for screen readers or if the image will not load.
+      </p>
+      <ol>
+        <li>Local image= &lt;img src="happyface.jpg" alt="Smiley Face"&gt;
+        </li>
+        <li>Remote images = &lt;img src="https://ex.com/hf.jpg" alt="Smiley Face"&gt;</li>
+      </ol>
+      <h4>Sizing images</h4>
+      <p>In order to size images you can use the width and height attribute. </p>
+      <p>&lt;img src="file" width="200"&gt;</p>
+      <h4>Example of images in html:</h4>
+      <p><img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="cat" style="width: 200px;"></p>
+<ul>
+  <li> The scr attribute specifies the path (URL) to the image.</li>
+  <li>alt - Specifies an alternate text for the image</li>
+</ul>
+<h4>Structure of a basic picture:</h4>
+<ol>
+  <li>&lt;!DOCTYPE html&gt;</li>
+<li>&lt;html&gt;</li>
+<li>&lt;head&gt;</li>
+<li>&lt;style&gt;</li>
+<li>img {
+  width: 100%;
+}</li>
+<li>&lt;/style&gt;</li>
+<li>&lt;/head&gt;</li>
+<li>&lt;body&gt;</li>
+<li>&lt;img src="html5.gif" alt="HTML5 Icon" width="128" height="128"&gt;</li>
+<li>&lt;img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;"&gt;</li>
+
+<li>&lt;/body&gt;</li>
+<li>&lt;/html&gt;</li>
+</ol>
+<h4>Syntax</h4>
+<p>&lt;img src="url" alt="alternatetext"&gt;</p>      
+    </main>
+  </body>
+</html>

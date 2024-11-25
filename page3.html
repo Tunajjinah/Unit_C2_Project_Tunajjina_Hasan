@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tables and Lists in HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <style>
+        table, th, td {
+    border:1px solid black;
+  }
+
+th, td { 
+  width:10%
+}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Intro to HTML</a>
+      <a href="/page3.html" aria-current="page"> Tables and Lists on HTML</a>
+    </nav>
+    <main>
+      <h1>Tables and Lists in HTML</h1>
+      <h4> Lists elements : There are 2 types of lists</h4>
+      <ol>
+        <li>Ordered list &lt;ol&gt; which is displayed in numbers.</li>
+      <li>Unordered lists &lt;ul&gt; which is displayed as bullet points.</li>
+      </ol>
+      <p>Thought they are 2 differengt lists they both use &lt;li&gt; to list items for whatever is within the list.</p>
+      <h4> Structure of a basic ordered list : </h4>
+      <p>&lt;ol&gt;<p>
+       <p> &lt;li&gt;list&lt;/li&gt;</p>
+        <p>&lt;li&gt;is&lt;/li&gt;</p>
+        <p>&lt;li&gt;numbered&lt;/li&gt;</p>
+     <p> &lt;/ol&gt;</p>
+     <h4> Example of basic html list: </h4>
+     <ol>
+      <li>Algebra 2</li>
+      <li>Spanish 2</li>
+      <li>10th grade computer science</li>
+      <li>10th grade computer science</li>
+      </ol>
+     
+      <h4>Structure of an unordered list : </h4>
+    <p>&lt;ul&gt;</p>
+       <p> &lt;li&gt;list&gt;/li&gt;</p>
+        <p>&lt;i&gt;has&lt;/li&gt;</p>
+       <p> &lt;li&gt;bullets&lt;/li&gt;</p>
+     <p> &lt;/ul&gt;</p>
+
+     <h4>Example of a unordered list in html: </h4>
+     <ul>
+      <li>Alebra 2</li>
+      <li>Spanish 2
+        <li>10th grade computer science</li>
+      <li>10th grade computer science</li>
+     </ul>
+
+     <h4>Table in html</h4>
+     <p>Tables in html helps web developers create structres that are similar to grids to araange data. In order to have emphesis borderes we need to use css but if you want to create html tables you can postion them without making it look like a gride.</p>
+     <h4>Table elements</h4>
+     <ul>
+      <li>table: creates the table</li>
+       <li>tr: creates a row</li>
+      <li> th: creates a heading cell</li>
+        <li>td: creates a data cell</li>
+     </ul>
+     <h4>Example of a table in html: </h4>
+     <table>
+      <tr>
+        <th> Period </th>
+        <th>Class</th>
+        <th>Teaher</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Math</td>
+        <td>Mrs Mun</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Spanish</td>
+        <td>Mr. Gagnon</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>health</td>
+        <td>Mr.H</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Gym</td>
+        <td>Mr Powell</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>History</td>
+        <td>Mr Cacamo</td>
+      </tr>
+   <tr>
+   <td>6</td>
+     <td>Lunch</td>
+     <td>No teacher</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Physics</td>
+        <td>Mr Lasko</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>English</td>
+        <td>Mrs Gallo</td>
+      </tr>
+    </table>
+     <h4>But how did we get this?</h4>
+     <h4>HTML structure of a table: </h4>
+    <ol>
+       <li>&lt;table&gt;</li>
+      <li>&lt;tr&gt;</li>
+        <li>&lt;th&gt;Heading 1&lt;/th&gt;</li>
+        <li>&lt;th&gt;Heading 2&lt;/th&gt;&gt;
+        <li>&lt;/tr&gt;</li>
+      <li>&lt;tr&gt;</li>
+        <li>&lt;td&gt;</li>
+        <li>&lt;td&gt;Data 1&lt;/td&gt;</li>
+       <li>&lt;td&gt;Data 2&lt;/td&gt;</li>
+      <li>&lt;/tr&gt;</li>
+    <li>&lt;/table&gt;</li>
+    </ol>
+    <h4>Borders for tables:</h4>
+    <p>In order to create borders you need to use CSS.</p>
+    <p>We use the code "table, th, td {
+      border:1px solid black;
+    }"
+    <p>By default the website will formate the table to fit the exact width of the webpage itself. However if you want to customize the website to your own liking then you can use "table {
+      "width:100%;
+      height:500px;
+    }
+    th,td {
+      width:100px;
+      height:50px;" 
+    }</p>
+
+  
+    
+    
+      
+
+
+
+    </main>
+  </body>
+</html>
